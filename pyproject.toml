@@ -19,9 +19,9 @@ dev = [
     "poethepoet>=0.49.0",
     "ruff>=0.17.4",
     "ty>=0.0.99",
+    "pytest>=9.2.0",
 ]
 
 [tool.poe.tasks]
 linters      = "uv run ruff check"                        
 type-check   = "uvx ty check"             
-
